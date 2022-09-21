@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "network-mon"
+version = "0.1.0"
+description = ""
+authors = ["Sean McCarthy <sean.mccarthy@hotmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+psutil = "^5.9.2"
+pandas = "^1.5.0"
+scapy = "^2.4.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = "^22.8.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
